@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "624135883400",
+    "firebase_url": "https://hallinformation-c2b7c.firebaseio.com",
+    "project_id": "hallinformation-c2b7c",
+    "storage_bucket": "hallinformation-c2b7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624135883400:android:823daeef2fa156da",
+        "android_client_info": {
+          "package_name": "com.android.sanjit.samsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624135883400-f30818rnl3a18n87mbbofagbf8ukoni3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.sanjit.samsapp",
+            "certificate_hash": "5b3fcae9079b59bffa06cb326fc2414a91c4662e"
+          }
+        },
+        {
+          "client_id": "624135883400-0h61umh7cadmlcmp9r87ddbcdop3rcpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZP0ei4t-xRQME4bODTSFrUP3dHN5yZFg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624135883400-0h61umh7cadmlcmp9r87ddbcdop3rcpu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624135883400:android:aa9b1f9b9ffcf0e3",
+        "android_client_info": {
+          "package_name": "com.android.sanjit.hallinformation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624135883400-e4ctnqvj8ogbee2h8jmnccd20k8durnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.sanjit.hallinformation",
+            "certificate_hash": "5b3fcae9079b59bffa06cb326fc2414a91c4662e"
+          }
+        },
+        {
+          "client_id": "624135883400-0h61umh7cadmlcmp9r87ddbcdop3rcpu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZP0ei4t-xRQME4bODTSFrUP3dHN5yZFg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624135883400-0h61umh7cadmlcmp9r87ddbcdop3rcpu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
