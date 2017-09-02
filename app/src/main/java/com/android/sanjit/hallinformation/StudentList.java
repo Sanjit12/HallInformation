@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.util.List;
 
 /**
@@ -34,13 +36,17 @@ public class StudentList extends ArrayAdapter<Student>{
 
         TextView name = (TextView) listViewItem.findViewById(R.id.name);
         TextView id = (TextView) listViewItem.findViewById(R.id.id);
+        TextView year = (TextView) listViewItem.findViewById(R.id.year);
         TextView department = (TextView) listViewItem.findViewById(R.id.department);
+        TextView phone = (TextView) listViewItem.findViewById(R.id.phone);
 
         Student student = studentList.get(position);
 
         name.setText(student.getName()+"  ( "+student.getRoom()+"-"+student.getBed()+" )");
         id.setText("ID: "+student.getId());
+        year.setText("Year: "+student.getYear());
         department.setText("Dept: "+student.getDepartment());
+        phone.setText("Phone: "+student.getPhone_number());
 
         return listViewItem;
     }

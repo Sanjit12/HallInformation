@@ -30,7 +30,8 @@
             android:name=".StudentInfoInput"
             android:label="@string/title_activity_student_info_input" />
         <activity android:name=".HomeWindow" />
-        <activity android:name=".ViewAllStudents"></activity>
+        <activity android:name=".ViewAllStudents" />
+        <activity android:name=".SearchForStudents"></activity>
     </application>
 
 </manifest>

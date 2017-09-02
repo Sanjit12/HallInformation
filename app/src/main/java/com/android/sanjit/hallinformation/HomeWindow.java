@@ -17,7 +17,7 @@ public class HomeWindow extends AppCompatActivity {
     private FirebaseAuth auth;
     private FirebaseAuth.AuthStateListener authStateListener;
 
-    Button logout,newStudentButton,allStudent;
+    Button logout,newStudentButton,allStudent,searchForStudents;
     TextView username;
 
     @Override
@@ -41,7 +41,7 @@ public class HomeWindow extends AppCompatActivity {
         };
 
         username = (TextView)findViewById(R.id.username1);
-        username.setText("Logged In as, "+auth.getCurrentUser().getDisplayName());
+        username.setText("Logged In as, "+auth.getCurrentUser().getEmail().split("@")[0]);
 
         logout = (Button) findViewById(R.id.logout_button);
         logout.setOnClickListener(new View.OnClickListener() {
@@ -65,6 +65,15 @@ public class HomeWindow extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomeWindow.this,ViewAllStudents.class));
+            }
+        });
+
+        searchForStudents = (Button)findViewById(R.id
+                .search_button);
+        searchForStudents.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeWindow.this,SearchForStudents.class));
             }
         });
     }
