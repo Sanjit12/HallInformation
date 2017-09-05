@@ -41,7 +41,7 @@ public class HomeWindow extends AppCompatActivity {
         };
 
         username = (TextView)findViewById(R.id.username1);
-        username.setText("Logged In as, "+auth.getCurrentUser().getEmail().split("@")[0]);
+        username.setText("Welcome, "+auth.getCurrentUser().getEmail().split("@")[0]);
 
         logout = (Button) findViewById(R.id.logout_button);
         logout.setOnClickListener(new View.OnClickListener() {

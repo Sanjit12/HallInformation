@@ -141,7 +141,7 @@ public class ViewAllStudents extends AppCompatActivity {
     }
     public boolean updateStudent(Student student){
         //FirebaseDatabase.getInstance().setPersistenceEnabled(true);
-        DatabaseReference dbref = FirebaseDatabase.getInstance().getReference("BSFMH").child(student.getRoom()+"-"+student.getBed());
+        DatabaseReference dbref = Database.getDatabase().getReference("BSFMH").child(student.getRoom()+"-"+student.getBed());
 
         dbref.setValue(student);
 

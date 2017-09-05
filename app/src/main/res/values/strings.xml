@@ -15,7 +15,7 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <color name="background_color">#efefefef</color>
+    <color name="background_color">#9ea1f5</color>
 
     <array name="Departments">
         <item>CSE</item>
